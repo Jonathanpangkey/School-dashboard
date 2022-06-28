@@ -13,10 +13,7 @@ body{
 .sidebar-nav {
   width: var(--offcanvas-width);
 }
-.sidebar-link {
-  display: flex;
-  align-items: center;
-}
+
 .sidebar-link .right-icon {
   display: inline-flex;
 }
@@ -35,7 +32,7 @@ body{
     display: none;
   }
   .sidebar-nav {
-    -webkit-transform: none;
+
     transform: none;
     visibility: visible !important;
     height: calc(100% - var(--topNavbarHeight));
